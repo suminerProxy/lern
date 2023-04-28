@@ -1,0 +1,41 @@
+package com.tencent.bugly.proguard;
+
+import android.content.Context;
+import com.tencent.bugly.crashreport.crash.CrashDetailBean;
+import com.tencent.bugly.crashreport.crash.jni.NativeExceptionHandler;
+import java.util.Map;
+
+/* compiled from: BUGLY */
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_3.dex_8745732.dex */
+public final class bd implements NativeExceptionHandler {
+
+    /* renamed from: a  reason: collision with root package name */
+    private final Context f9831a;
+    private final as b;
+    private final aa c;
+
+    /* renamed from: d  reason: collision with root package name */
+    private final ac f9832d;
+
+    public bd(Context context, aa aaVar, as asVar, ac acVar) {
+    }
+
+    private static Map<String, String> a(String[] strArr) {
+    }
+
+    @Override // com.tencent.bugly.crashreport.crash.jni.NativeExceptionHandler
+    public final boolean getAndUpdateAnrState() {
+    }
+
+    @Override // com.tencent.bugly.crashreport.crash.jni.NativeExceptionHandler
+    public final void handleNativeException(int i2, int i3, long j2, long j3, String str, String str2, String str3, String str4, int i4, String str5, int i5, int i6, int i7, String str6, String str7) {
+    }
+
+    @Override // com.tencent.bugly.crashreport.crash.jni.NativeExceptionHandler
+    public final void handleNativeException2(int i2, int i3, long j2, long j3, String str, String str2, String str3, String str4, int i4, String str5, int i5, int i6, int i7, String str6, String str7, String[] strArr) {
+    }
+
+    @Override // com.tencent.bugly.crashreport.crash.jni.NativeExceptionHandler
+    public final CrashDetailBean packageCrashDatas(String str, String str2, long j2, String str3, String str4, String str5, String str6, String str7, String str8, String str9, String str10, String str11, byte[] bArr, Map<String, String> map, boolean z, boolean z2) {
+    }
+}

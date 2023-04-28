@@ -1,0 +1,11 @@
+package com.tencent.thumbplayer.api.reportv2;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_3.dex_8745732.dex */
+public interface ITPExtendReportController {
+    void addReportChannelListener(@NonNull ITPReportChannelListener iTPReportChannelListener);
+
+    void setReportInfoGetter(@Nullable ITPReportInfoGetter iTPReportInfoGetter);
+}

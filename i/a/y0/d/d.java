@@ -1,0 +1,34 @@
+package i.a.y0.d;
+
+import i.a.n0;
+import java.util.concurrent.atomic.AtomicReference;
+
+/* compiled from: BiConsumerSingleObserver.java */
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_3.dex_8745732.dex */
+public final class d<T> extends AtomicReference<i.a.u0.c> implements n0<T>, i.a.u0.c {
+    private static final long serialVersionUID = 4943102778943297569L;
+    public final i.a.x0.b<? super T, ? super Throwable> onCallback;
+
+    public d(i.a.x0.b<? super T, ? super Throwable> bVar) {
+    }
+
+    @Override // i.a.u0.c
+    public void dispose() {
+    }
+
+    @Override // i.a.u0.c
+    public boolean isDisposed() {
+    }
+
+    @Override // i.a.n0
+    public void onError(Throwable th) {
+    }
+
+    @Override // i.a.n0
+    public void onSubscribe(i.a.u0.c cVar) {
+    }
+
+    @Override // i.a.n0
+    public void onSuccess(T t) {
+    }
+}

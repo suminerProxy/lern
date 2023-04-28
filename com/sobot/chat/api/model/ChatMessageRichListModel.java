@@ -1,0 +1,28 @@
+package com.sobot.chat.api.model;
+
+import java.io.Serializable;
+
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_2.dex_9268620.dex */
+public class ChatMessageRichListModel implements Serializable {
+    private String msg;
+    private String name;
+    private int type;
+
+    public String getMsg() {
+    }
+
+    public String getName() {
+    }
+
+    public int getType() {
+    }
+
+    public void setMsg(String str) {
+    }
+
+    public void setName(String str) {
+    }
+
+    public void setType(int i2) {
+    }
+}

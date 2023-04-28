@@ -1,0 +1,10 @@
+package com.sobot.chat.listener;
+
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_2.dex_9268620.dex */
+public interface HyperlinkListener {
+    void onEmailClick(String str);
+
+    void onPhoneClick(String str);
+
+    void onUrlClick(String str);
+}

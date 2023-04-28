@@ -1,0 +1,12 @@
+package i.a.y0.e.c;
+
+/* compiled from: MaybeUnsafeCreate.java */
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_3.dex_8745732.dex */
+public final class q1<T> extends a<T, T> {
+    public q1(i.a.y<T> yVar) {
+    }
+
+    @Override // i.a.s
+    public void q1(i.a.v<? super T> vVar) {
+    }
+}

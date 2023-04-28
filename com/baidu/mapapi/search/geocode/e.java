@@ -1,0 +1,23 @@
+package com.baidu.mapapi.search.geocode;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.baidu.mapapi.search.geocode.ReverseGeoCodeResult;
+
+/* compiled from: ReverseGeoCodeResult.java */
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_0.dex_8988432.dex */
+public final class e implements Parcelable.Creator<ReverseGeoCodeResult.RoadInfo> {
+    public ReverseGeoCodeResult.RoadInfo a(Parcel parcel) {
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public /* synthetic */ ReverseGeoCodeResult.RoadInfo createFromParcel(Parcel parcel) {
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public /* synthetic */ ReverseGeoCodeResult.RoadInfo[] newArray(int i2) {
+    }
+
+    public ReverseGeoCodeResult.RoadInfo[] a(int i2) {
+    }
+}

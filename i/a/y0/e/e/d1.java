@@ -1,0 +1,20 @@
+package i.a.y0.e.e;
+
+import java.util.concurrent.Callable;
+
+/* compiled from: ObservableFromCallable.java */
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_3.dex_8745732.dex */
+public final class d1<T> extends i.a.b0<T> implements Callable<T> {
+    public final Callable<? extends T> b;
+
+    public d1(Callable<? extends T> callable) {
+    }
+
+    @Override // java.util.concurrent.Callable
+    public T call() throws Exception {
+    }
+
+    @Override // i.a.b0
+    public void subscribeActual(i.a.i0<? super T> i0Var) {
+    }
+}

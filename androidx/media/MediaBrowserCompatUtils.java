@@ -1,0 +1,17 @@
+package androidx.media;
+
+import android.os.Bundle;
+import androidx.annotation.RestrictTo;
+
+@RestrictTo({RestrictTo.Scope.LIBRARY})
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_0.dex_8988432.dex */
+public class MediaBrowserCompatUtils {
+    private MediaBrowserCompatUtils() {
+    }
+
+    public static boolean areSameOptions(Bundle options1, Bundle options2) {
+    }
+
+    public static boolean hasDuplicatedItems(Bundle options1, Bundle options2) {
+    }
+}

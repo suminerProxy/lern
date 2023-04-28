@@ -1,0 +1,33 @@
+package com.tencent.mm.opensdk.modelmsg;
+
+import android.os.Bundle;
+import com.tencent.mm.opensdk.modelmsg.WXMediaMessage;
+
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_3.dex_8745732.dex */
+public class WXMusicObject implements WXMediaMessage.IMediaObject {
+    private static final int LENGTH_LIMIT = 10240;
+    private static final int LYRIC_LENGTH_LIMIT = 32768;
+    private static final String TAG = "MicroMsg.SDK.WXMusicObject";
+    public String musicDataUrl;
+    public String musicLowBandDataUrl;
+    public String musicLowBandUrl;
+    public String musicUrl;
+    public String songAlbumUrl;
+    public String songLyric;
+
+    @Override // com.tencent.mm.opensdk.modelmsg.WXMediaMessage.IMediaObject
+    public boolean checkArgs() {
+    }
+
+    @Override // com.tencent.mm.opensdk.modelmsg.WXMediaMessage.IMediaObject
+    public void serialize(Bundle bundle) {
+    }
+
+    @Override // com.tencent.mm.opensdk.modelmsg.WXMediaMessage.IMediaObject
+    public int type() {
+    }
+
+    @Override // com.tencent.mm.opensdk.modelmsg.WXMediaMessage.IMediaObject
+    public void unserialize(Bundle bundle) {
+    }
+}

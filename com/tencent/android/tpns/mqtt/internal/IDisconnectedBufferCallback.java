@@ -1,0 +1,9 @@
+package com.tencent.android.tpns.mqtt.internal;
+
+import com.tencent.android.tpns.mqtt.BufferedMessage;
+import com.tencent.android.tpns.mqtt.MqttException;
+
+/* loaded from: C:\Users\baby\Nox_share\ImageShare\dex\_data_user_0_com.showstartfans.activity_files_prodexdir_00O000ll111l_2.dex_9268620.dex */
+public interface IDisconnectedBufferCallback {
+    void publishBufferedMessage(BufferedMessage bufferedMessage) throws MqttException;
+}
